@@ -5,14 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+
+    <style>
+
+     body {
+         margin: 0;
+         padding: 0;
+         font-family: Calibri;
+         background: linear-gradient(150deg, #6C3483,#58D68D);
+         height: 100vh;
+     }
+     .formulario{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         width: 400px;
+         background-color: white;
+         border-radius: 10px;
+     }
+
+     .formulario h1{
+         text-align: center;
+         padding: 0 0 20px 0;
+         border-bottom: 1px solid silver;
+
+     }
+
+     .formulario form{
+
+     }
+
+    </style>
+
+
+
 </head>
 <body>
-    <h1>Registro</h1>
-    <form action="">
-        <input type="text" name="usuario" id="usuario" placeholder="Ingrese el usuario"><br>
-        <input type="password" name="clave" id="clave" placeholder="Ingrese su contraseña"><br>
-        <input type="button" value="Registarse" onclick="javascript:location.href='perfil.html';">
+   
+  <div class="formulario">
+    <h1>
+     Inicio de sesion
+    </h1>
+    <form method="post">
+         <div class="username">
+            <input type="text" required>
+            <label>Nombre de usuario</label>
+          </div>
+         <div class="contrasena">
+            <input type="password" required>
+            <label>Contraseña</label>
+          </div>
+         <div class="recordar">¿Olvido su contraseña?</div>
+           <input type="submit" value="Iniciar">
+           <div class="registrarse">
+               Quiero hacer el <a href="#">registro</a>
+           </div>
     </form>
-    <a href="index.html">Volver al home</a>
+  </div>
+
+
+
 </body>
 </html>
