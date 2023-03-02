@@ -32,6 +32,19 @@
 
      }
 
+    .logos {
+      transform: translate(-100%, 100%);
+
+      }
+
+    .header {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background-color: #4CAF50;
+      color: white;
+      }
+
      .formulario form{
 
      }
@@ -42,27 +55,50 @@
 
 </head>
 <body>
-   
-  <div class="formulario">
-    <h1>
-     Inicio de sesion
-    </h1>
-    <form method="post">
-         <div class="username">
-            <input type="text" required>
-            <label>Nombre de usuario</label>
-          </div>
-         <div class="contrasena">
-            <input type="password" required>
-            <label>Contraseña</label>
-          </div>
-         <div class="recordar">¿Olvido su contraseña?</div>
-           <input type="submit" value="Iniciar">
-           <div class="registrarse">
-               Quiero hacer el <a href="#">registro</a>
-           </div>
-    </form>
-  </div>
+
+    <div class="formulario">
+        <h1>
+            Inicio de sesion
+        </h1>
+        <form method="post">
+            <div class="username">
+                <input type="text" required>
+                <label>Nombre de usuario</label>
+            </div>
+            <div class="contrasena">
+                <input type="password" required>
+                <label>Contraseña</label>
+            </div>
+            <div class="recordar">¿Olvido su contraseña?</div>
+            <input type="submit" value="Iniciar">
+            <div class="registrarse">
+                Quiero hacer el <a href="#">registro</a>
+            </div>
+        </form>
+    </div>
+
+    <header class="header">
+
+        <div class="logo">
+
+            <a href="Menu.html">
+                <img src="img/Fle.png" height=35px width=100% alt=Fle>
+            </a>
+        </div>
+
+        <div class="logos">
+            <a href="#">
+                <img src="img/Opc.png" height=30px width=100% alt=Opc>
+            </a>
+        </div>
+        <h1 class="title">Mi tienda en linea</h1>
+
+
+
+
+
+    </header>
+
 
 
 
