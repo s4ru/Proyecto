@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
+    <title>Opciones</title>
 
     <style>
         * {
@@ -23,7 +21,6 @@
         .container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
             align-items: center;
             padding: 20px;
         }
@@ -41,53 +38,31 @@
                 width: 100%;
                 height: auto;
                 margin-bottom: 10px;
+                left: 50%;
             }
-
-        .btn {
-            display: block;
-            width: 100%;
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            margin-top: 10px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        .logos {
-            transform: translate(-100%,100%);
-        }
-
-        .btn:hover {
-        background-color: #3e8e41;
-        }
 
         .search {
             display: block;
-            width: 100%;
+            width: 30%;
             padding: 10px;
+            transform: translate(10%,0%);
             border: none;
-            order-radius: 50px;
+            order-radius: 30px;
             margin-top: 10px;
             font-size: 16px;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
             box-sizing: border-box;
         }
 
-        .icon {
-            font-size: 24px;
-            color: #4CAF50;
-            margin-right: 10px;
+        .logos {
+            transform: translate(-90%,80%);
         }
+
 
         .header {
             display: flex;
-            align-items: center;
-            padding: 30px;
+            align-items: end;
+            padding: 40px;
             background-color: #4CAF50;
             color: white;
         }
@@ -97,11 +72,24 @@
             margin-left: 10px;
         }
 
-        .imagen {
-            width: 30%;
-            margin-right: 10 px;
-            padding: 20px;
+        .pro1 {
+            transform: translate(0%,0%);
         }
+
+        .pro2 {
+            transform: translate(0%,0%);
+        }
+
+        .perfil {
+            transform: translate(-2320%,-80%);
+        }
+
+
+
+
+
+
+
 
         @media (max-width: 767px) {
             .container {
@@ -113,31 +101,66 @@
             }
         }
     </style>
-
 </head>
 <body>
-
     <header class="header">
 
         <div class="logo">
 
-            <a href="registro.html">
-                <img src="img/Fle.png" height=30px width=100% alt=Fle>
+            <a href="Carrito.html">
+                <img src="img/Car.png" height=30px width=100% alt=Car>
             </a>
         </div>
 
         <div class="logos">
-            <a href="Opciones.html">
+            <a href="#">
                 <img src="img/Opc.png" height=30px width=100% alt=Opc>
             </a>
         </div>
+
         <h1 class="title">Mi tienda en linea</h1>
 
+        <div class="search">
 
+            <a href="#">
+                <img src="img/bla.png" height=30px width=100% alt=bla>
+            </a>
+        </div>
 
-
-
+        <div class="perfil">
+            <a href="registro.html">
+                <img src="img/pre.png" height=35px width=100% alt=pre>
+            </a>
+        </div>
 
     </header>
+
+    <header class="container">
+
+        <div class="opc1">
+
+            <a href="#">
+
+                <p>
+                    Metodos de pago
+                </p>
+
+            </a>
+
+        </div>
+
+        <div class="opc2">
+
+            <a href="#">
+                <p>
+                    Historial
+                </p>
+
+            </a>
+
+        </div>
+
+    </header>
+
+
 </body>
-</html>
