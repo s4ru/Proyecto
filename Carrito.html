@@ -15,9 +15,11 @@
         }
 
         body {
-            background-color: #f2f2f2;
             margin: 0;
             padding: 0;
+            font-family: Calibri;
+            background: linear-gradient(150deg, #6C3483,#58D68D);
+            height: 100vh;
         }
 
         .container {
@@ -28,61 +30,12 @@
             padding: 20px;
         }
 
-        .box {
-            width: 30%;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-            .box img {
-                width: 100%;
-                height: auto;
-                margin-bottom: 10px;
-                left: 50%;
-            }
-
-        .btn {
-            display: block;
-            width: 100%;
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            margin-top: 10px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-            .btn:hover {
-                background-color: #3e8e41;
-            }
-
-        .search {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            border: none;
-            order-radius: 50px;
-            margin-top: 10px;
-            font-size: 16px;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-            box-sizing: border-box;
-        }
-
-        .icon {
-            font-size: 24px;
-            color: #4CAF50;
-            margin-right: 10px;
-        }
-
         .logos {
-            transform: translate(-90%,80%);
+            transform: translate(-90%,20%);
+        }
+
+        .logo {
+            transform: translate(-90%,20%);
         }
 
         .pro1 {
@@ -92,6 +45,30 @@
         .pro2 {
 		transform: translate(0%,0%);
 		}
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 40px;
+            border: 2px solid #9c27b0;
+            color: #fff;
+            text-decoration: none;
+            background: #9c27b0;
+            transform: translate(0%,0%);
+        }
+
+            .btn:hover {
+                background: none;
+            }
+
+        .btn-home {
+            display: flex;
+        }
+
+            .btn-home a {
+                margin: 0 10px;
+            }
+
 
 
         .header {
@@ -147,35 +124,24 @@
 
         </div>
 
-        <h1 class="title">Mi tienda en linea</h1>
+        <h1 class="title">Carrito</h1>
         
     </header>
 
     <header class ="container">
-    
-            <div class="pro1">
-            
-            <a href="#">
-                <img src="img/xbx.JPG" height=150px width=100% alt=Mundo>
-            </a>
-            <p>Comprar</p>
-        </div>
-    
-        <header class ="container">
-    
-            <div class="pro2">
-            
-            <a href="#">
-                <img src="img/gel.JPG" height=150px width=100% alt=Mundo>
-            </a>
-            <p>Comprar</p>
-        </div>
 
+                <div class="pro1">
+                    <img src="img/gel.JPG" height=150px width=50% alt=gel>
 
+                    <a href="compra.html" class="btn">Comprar</a>
+                </div>
 
+                <div class="pro2">
+                    <img src="img/xbx.JPG" height=150px width=50% alt=xbx>
 
-    </header>
+                    <a href="compra.html" class="btn">Comprar</a>
+                </div>
 
-
+            </header>
 </body>
 </html>
