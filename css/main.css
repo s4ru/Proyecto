@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
+
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 .buscar {
     position: absolute;
     padding: 5px;
-    transform: translate(252%,0%);
+    transform: translate(200%,0%);
 }
 
 
@@ -76,9 +77,41 @@ body {
         border-radius: 30px;
     }
 
-.logos {
-    transform: translate(60%,20%);
+.carrito {
+    transform: translate(0%,20%);
 }
+
+
+.logos {
+    transform: translate(0%,20%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.pro1 {
+    display: flex;
+    align-items: center;
+    transform: translate(0%,0%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pro2 {
+    display: flex;
+    align-items: center;
+    transform: translate(0%,0%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
 
 .logox {
     transform: translate(0%,0%);
@@ -87,6 +120,16 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+.mundo {
+    transform: translate(0%,20%);
+    padding: 5px;
+}
+
+.logo {
+    transform: translate(0%,20%);
+    padding: 5px;
 }
 
 .header {
@@ -100,21 +143,16 @@ body {
 .title {
     font-size: 24px;
     margin-left: 10px;
+    padding: 5px;
+    transform: translate(0%,20%);
 }
 
 .titles {
     transform: translate(0%,0%);
 }
 
-.logo {
-    transform: translate(-70%,20%);
-}
-
-.mundo {
-    transform: translate(-170%,20%);
-}
-
 .btn {
+    align-items: center;
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
@@ -131,6 +169,12 @@ body {
 
 .btn-home {
     display: flex;
+    align-items: center;
+    transform: translate(0%,0%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
 
     .btn-home a {
@@ -152,3 +196,19 @@ body {
         width: 100%;
     }
 }
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+    .formulario h1 {
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid silver;
+    }
