@@ -26,7 +26,7 @@ body {
 .buscar {
     position: absolute;
     padding: 5px;
-    transform: translate(200%,0%);
+    transform: translate(0%,150%);
 }
 
 
@@ -44,7 +44,7 @@ body {
 .buscare {
     position: absolute;
     padding: 5px;
-    transform: translate(325%,100%);
+    transform: translate(0%,250%);
 }
 
 
@@ -62,7 +62,7 @@ body {
 .buscari {
     position: absolute;
     padding: 5px;
-    transform: translate(500%,200%);
+    transform: translate(0%,350%);
 }
 
 
@@ -150,6 +150,37 @@ body {
 .titles {
     transform: translate(0%,0%);
 }
+
+.btne {
+    align-items: center;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+    transform: translate(0%,400%);
+}
+
+    .btne:hover {
+        background: none;
+    }
+
+.btne-home {
+    display: flex;
+    align-items: center;
+    transform: translate(0%,0%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+    .btne-home a {
+        margin: 0 10px;
+    }
+
 
 .btn {
     align-items: center;
