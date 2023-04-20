@@ -24,9 +24,11 @@ body {
 }
 
 .buscar {
-    position: absolute;
-    padding: 5px;
-    transform: translate(0%,150%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 
