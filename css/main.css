@@ -88,8 +88,8 @@ body {
     transform: translate(0%,20%);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     padding: 5px;
 }
 
@@ -100,7 +100,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .pro2 {
@@ -110,7 +110,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -132,12 +132,14 @@ body {
 .logo {
     transform: translate(0%,20%);
     padding: 5px;
+    justify-content: center;
+    margin-left -130;
 }
 
 .header {
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     background-color: #4CAF50;
     color: white;
 }
@@ -151,6 +153,15 @@ body {
 
 .titles {
     transform: translate(0%,0%);
+    padding: 5px;
+}
+
+.titlex {
+    font-size: 20px;
+    transform: translate(0%,20%);
+    padding: 5px;
+    margin-left: 130px;
+    color: black;
 }
 
 .btne {
@@ -189,6 +200,7 @@ body {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
+    margin-left: 10px;
     border: 2px solid #9c27b0;
     color: #fff;
     text-decoration: none;
