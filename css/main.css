@@ -136,6 +136,13 @@ body {
     margin-left -130;
 }
 
+.logox {
+    transform: translate(0%,20%);
+    padding: 5px;
+    justify-content: center;
+    margin-left :10px;
+}
+
 .header {
     display: flex;
     align-items: center;
