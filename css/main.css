@@ -1,4 +1,4 @@
-@media only screen and (min-width: 220px) and (max-width: 540px){
+@media only screen and (min-width: 541px) and (max-width: 1024px){
 
 * {
     box-sizing: border-box;
@@ -19,7 +19,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
     flex-direction: column;
@@ -117,16 +117,6 @@ body {
 }
 
 
-
-.logox {
-    transform: translate(0%,0%);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
 .mundo {
     transform: translate(0%,20%);
     padding: 5px;
@@ -142,8 +132,10 @@ body {
 .logox {
     transform: translate(0%,20%);
     padding: 5px;
-    justify-content: center;
-    margin-left :10px;
+    justify-content: right;
+    align-items: right;
+    margin-left : auto;
+    display: left;
 }
 
 .header {
@@ -167,11 +159,12 @@ body {
 }
 
 .titlex {
-    font-size: 20px;
+    font-size: 25px;
     transform: translate(0%,20%);
     padding: 5px;
     margin-left: 130px;
     color: black;
+    align-items: center;
 }
 
 .btne {
@@ -204,18 +197,22 @@ body {
         margin: 0 10px;
     }
 
+.img-eye{
+    width:
+    height:
+}
 
 .btn {
     align-items: center;
     display: inline-block;
     margin-top: 15px;
-    padding: 10px 40px;
-    margin-left: 10px;
+    padding: 20px 40px;
     border: 2px solid #9c27b0;
     color: #fff;
     text-decoration: none;
     background: #9c27b0;
     transform: translate(0%,0%);
+    font-size: 25px;
 }
 
     .btn:hover {
@@ -260,20 +257,20 @@ body {
 }
 
 
-@media only screen and (min-width: 541px) and (max-width: 1024px){
+@media only screen and (min-width: 220px) and (max-width: 540px){
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: cursive;
+    font-family: calibri;
 
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: cursive;
+    font-family: calibri;
     background: linear-gradient(150deg, #6C3483,#58D68D);
     height: 100vh;
 }
@@ -378,17 +375,6 @@ body {
     padding: 10px;
 }
 
-
-
-.logox {
-    transform: translate(0%,0%);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
 .mundo {
     transform: translate(0%,20%);
     padding: 5px;
@@ -405,7 +391,7 @@ body {
     transform: translate(0%,20%);
     padding: 5px;
     justify-content: center;
-    margin-left :10px;
+    margin-left :130px;
 }
 
 .header {
@@ -432,7 +418,7 @@ body {
     font-size: 20px;
     transform: translate(0%,20%);
     padding: 5px;
-    margin-left: 130px;
+    margin-left: 70px;
     color: black;
 }
 
