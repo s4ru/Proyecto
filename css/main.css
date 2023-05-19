@@ -142,6 +142,7 @@ body {
 .mundo {
     transform: translate(0%,20%);
     padding: 5px;
+    margin-left: auto;
 }
 
 .logo {
@@ -184,10 +185,11 @@ body {
     font-size: 25px;
     transform: translate(0%,20%);
     padding: 5px;
-    margin-center: auto;
     justify-content: center;
     color: black;
     align-items: center;
+    margin-left: 130px;
+    margin-right: 70px;
 }
 
 .btne {
